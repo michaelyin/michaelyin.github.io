@@ -10,7 +10,7 @@ I have been in US for more than 16 years. Time flies!
 
 ### More Information
 
-I like soccer, basketball. Follows Jeremy Lin's game as long as he is still active! 
+I like soccer, basketball. Follow Jeremy Lin's game as long as he is still active! 
 
 ### Contact me
 
