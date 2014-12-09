@@ -13,7 +13,7 @@ By default the number is 1024 which is too small.
 sudo gedit /etc/security/limits.conf
 Add the following lines to the file:
 
-   \* soft nofile 10000 
+   \* soft nofile 10000 <br>
    \* hard nofile 50000
 
 This sets for all users a soft limit of 10000 open files and a hard limit of 50000. 
