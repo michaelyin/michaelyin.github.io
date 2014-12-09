@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: To set a system wide limit for open files on Ubuntu Linux
