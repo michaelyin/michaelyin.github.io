@@ -10,3 +10,5 @@ a phone user's activity for business analysis. Below is a few links describing t
 
 <a href='http://www.nytimes.com/2013/07/15/business/attention-shopper-stores-are-tracking-your-cell.html?pagewanted=all&_r=0'>Attention, Shoppers: Store Is Tracking Your Cell</a>
 
+<a href='http://edwardkeeble.com/2014/02/passive-wifi-tracking/'>Passive WiFi Tracking</a>
+
