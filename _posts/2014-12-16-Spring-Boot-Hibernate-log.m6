@@ -1,0 +1,17 @@
+---
+layout: post
+title: Spring Boot Hibernate error trouble shooting
+---
+
+In a recent project based on Spring Boot, a REST service always throws following Exception:<br>
+<b>com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; 
+check the manual that corresponds to your MySQL server version for the right syntax to use near 'check, ....'</b><br>
+
+First step is to turn on the Hibernate logging by adding following 2 lines in logback.xml:<br>
+
+  <logger name="org.hibernate.type" level="ALL" /><br>
+  <logger name="org.hibernate" level="DEBUG" />
+  
+  The root cause is found that one of the table column uses the MySql reserved key word 'check' as the column name. <br>
+  Change it to a    different name. The issue is gone!
+  
