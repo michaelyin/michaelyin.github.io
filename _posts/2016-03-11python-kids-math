@@ -1,3 +1,8 @@
+---
+layout: post
+title: Simple Python program to list all possible M&Ms
+---
+
 For my son's math home work, I write a simple Python program to list all possible M&Ms.
 
 import itertools
