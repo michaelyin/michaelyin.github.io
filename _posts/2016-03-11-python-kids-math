@@ -1,0 +1,40 @@
+---
+layout: post
+title: Simple Python program to list all possible M&Ms
+---
+
+For my son's math home work, I write a simple Python program to list all possible M&Ms.
+
+import itertools
+
+def str(list):
+    '''Given a list of characters, return a string'''
+    length = len(list)
+    str = ''
+    for i in range(length):
+        str = str + list[i]
+    return str
+
+
+# Anna has four M&Ms (two red, one yellow, and one blue), which are identical
+# except for color. In how many distinct (different) orders can Anna eat her M&Ms
+# if she eats them one by one
+mms = ['R', 'R', 'Y', 'B', 'G', 'O']
+pm = itertools.permutations(mms)
+
+plist = []
+for e in pm:
+    el = e
+    plist.append(el)
+
+strlist = []
+for l in plist:
+    print l
+    print str(l)
+    strlist.append(str(l))
+
+str_set = set(strlist)
+for e in str_set:
+    print e
+   
+print 'Number of sequences: ', len(str_set)
